@@ -10200,6 +10200,9 @@ fsevents@^1.2.7:
 "pnp@workspace:.":
   version: 0.0.0-use.local
   resolution: "pnp@workspace:."
+  dependenciesMeta:
+    ts-pnp:
+      unplugged: true
   languageName: unknown
   linkType: soft
 

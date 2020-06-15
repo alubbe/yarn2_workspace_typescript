@@ -11,5 +11,10 @@
   "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependenciesMeta": {
+    "ts-pnp": {
+      "unplugged": true
+    }
+  }
 }
