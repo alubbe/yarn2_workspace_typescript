@@ -1996,14 +1996,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 14.0.13
-  resolution: "@types/node@npm:14.0.13"
-  checksum: 2f2be6f7f1a916b0f4d58949bd934a8e41c0dcb15c493c17c3eaf78da3065c09650030f0dfe2e8c11880d597ee001d7cd925129218037fdb4432e80f7d895673
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^12.7.2":
+"@types/node@npm:*, @types/node@npm:^12.7.2":
   version: 12.12.47
   resolution: "@types/node@npm:12.12.47"
   checksum: 925edf3fec205a9439e7e72d54e54cc4825714d4f5623ac2fad96c5ea015956125b4b1cfc6ca782ad6929c7d7cf89960dae858d29ad082ee305833b243cc1cc7
@@ -10207,29 +10200,6 @@ fsevents@^1.2.7:
 "pnp@workspace:.":
   version: 0.0.0-use.local
   resolution: "pnp@workspace:."
-  dependencies:
-    "@types/node": ^12.7.2
-    "@types/react": ^16.9.2
-    "@types/react-custom-scrollbars": ^4.0.6
-    "@types/react-dom": ^16.8.5
-    "@types/react-grid-layout": ^0.17.0
-    "@types/react-redux": ^7.1.2
-    "@types/react-router-dom": ^5.1.3
-    "@types/react-select": ^3.0.8
-    "@types/react-slick": ^0.23.4
-    "@types/react-test-renderer": ^16.9.0
-    "@types/redux-mock-store": ^1.0.1
-    connected-react-router: ^6.5.2
-    history: ^4.7.2
-    immutable: ^3.8.1
-    react: ^16.4.0
-    react-dom: ^16.9.0
-    react-redux: ^6.0
-    react-router: ^4.3
-    react-scripts: 3.4.1
-    redux: ^3.6.0
-    seamless-immutable: ^7.1.3
-    typescript: ^3.5.3
   languageName: unknown
   linkType: soft
 
@@ -12104,6 +12074,35 @@ resolve@1.1.7:
   checksum: e0370fbe779b1f15d74c3e7dffc0ce40b57b845fc7e431fab8a571958d5fd9c91eb0038a252604600e20786d117badea0cc4cf8816b8a6be6b9166b565ad6797
   languageName: node
   linkType: hard
+
+"rofl@workspace:packages/rofl":
+  version: 0.0.0-use.local
+  resolution: "rofl@workspace:packages/rofl"
+  dependencies:
+    "@types/node": ^12.7.2
+    "@types/react": ^16.9.2
+    "@types/react-custom-scrollbars": ^4.0.6
+    "@types/react-dom": ^16.8.5
+    "@types/react-grid-layout": ^0.17.0
+    "@types/react-redux": ^7.1.2
+    "@types/react-router-dom": ^5.1.3
+    "@types/react-select": ^3.0.8
+    "@types/react-slick": ^0.23.4
+    "@types/react-test-renderer": ^16.9.0
+    "@types/redux-mock-store": ^1.0.1
+    connected-react-router: ^6.5.2
+    history: ^4.7.2
+    immutable: ^3.8.1
+    react: ^16.4.0
+    react-dom: ^16.9.0
+    react-redux: ^6.0
+    react-router: ^4.3
+    react-scripts: 3.4.1
+    redux: ^3.6.0
+    seamless-immutable: ^7.1.3
+    typescript: ^3.5.3
+  languageName: unknown
+  linkType: soft
 
 "rsvp@npm:^4.8.4":
   version: 4.8.5
